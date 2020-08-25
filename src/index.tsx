@@ -24,6 +24,8 @@ export const Thing = () => {
 };
 
 export {
+  Provider,
+  GuardFactory,
   AdminRequirement,
   GuestRequirement,
   SuperChargeRequirement,
