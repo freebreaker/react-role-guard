@@ -17,7 +17,7 @@ const GuardItem: React.FC<IGuardItemProps> = (props) => {
         <Consumer>
             {(credentials: string) => {
                 return requirement.satisfied(credentials)
-                    ? props.children
+                    ? <div>{props.children}</div>
                     : null;
             }}
         </Consumer>
